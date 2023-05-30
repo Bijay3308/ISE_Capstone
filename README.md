@@ -1,3 +1,22 @@
+# CD-T-Four
+# Object Detection and Pick-up and Drop-up using TurtleBot 3 Burger- HOME SERVICE ROBOT
+
+
+## Table of Contents
+1. Introduction
+2. Installation
+3. Usage
+4. features
+
+## 1. Introduction
+The overall goal of this project is to make a home service rebot which can detect and pick-up and drop-off object inside a house hold using TurtleBot 3 burger. This project deals with Robot Operating System (ROS) & OpenCV (Open-source Computer Vision Library).
+
+OpenCV methods are used for detecting the object and ROS is used for linking perception stage to actuation stage. (The detection script and nodes are implemented in Python)
+
+### 1.1 Sensors & Add-ins Used
+1. camera- It can be used for visual recognition and identification of objects, enabling the robot to locate items to pick up or drop off accurately.
+2. LiDar-  LIDAR sensors, such as the one commonly used in the TurtleBot 3 Burger, provide a 360-degree view of the robot's surroundings by emitting laser beams and measuring the time it takes for the beams to bounce back. LIDAR is useful for mapping the environment, detecting obstacles, and identifying objects for pick-up and drop-off tasks.
+3. Gripper Arm- A gripper or manipulator arm attached to the TurtleBot 3 Burger enables the physical interaction with objects. The gripper can be designed to grasp and release items based on their size, weight, and shape, facilitating the pick-up and drop-off tasks.
 # PC Setup using:
 - Ubuntu 20.04
 - ROS Neotic
